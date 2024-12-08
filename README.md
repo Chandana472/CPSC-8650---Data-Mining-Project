@@ -1,24 +1,27 @@
 CPSC 8650
 TEAM 6
-Sahithi Tatineni
-Sri Chandana Kovelamudi
-Holly Elizabeth Amell
+Sahithi Tatineni, 
+Sri Chandana Kovelamudi, 
+Holly Elizabeth Amell. 
 
-THE PROBLEM
 
-Hearing loss is a medical issue that affects many people around the world. It can be a result of
-many different factors such as infection, loud noise, or various medical conditions. Metabolic
-and sensory components have been linked to age-related hearing loss
-(https://pubmed.ncbi.nlm.nih.gov/35064426/). Brain MRIs are used to take images of the brain
-for various medical purposes. From these MRIs, gray matter images can be created using
-specialized processing techniques. These gray matter images can be used to monitor the brain
-and the areas associated with hearing loss.
-Hearing loss is measured with pure tones. It uses the quietest sound, in decibels, a person can
-hear. The severity of the hearing loss is measured through the lowest decibel the person can
-hear.
-Various data mining techniques can be used to analyze the gray matter images to predict
-hearing thresholds. The dataset includes the gray matter image and its two corresponding pure
-tone frequencies, PT 500 and PT 4000. Three different data mining techniques were trained to
-predict the PT 500 and PT 4000 values for the gray matter images.
+# Predicting Hearing Thresholds from Brain MRI Images
 
-This code file represents solutions provided for the problem
+This project aims to develop and evaluate multiple computational approaches to predict subjects' hearing thresholds at two pure-tone frequencies using gray matter images from Brain MRI scans. The task involves training different machine learning models and deep learning techniques to predict hearing thresholds and comparing their performance using various evaluation metrics.
+
+## Problem Overview
+We are provided with a dataset that includes:
+- Gray matter images from Brain MRI scans.
+- Associated hearing thresholds for each subject at two different pure-tone frequencies.
+
+The objective is to develop prediction models that can accurately estimate the hearing thresholds based on the MRI images and then evaluate these models using performance metrics such as mean squared error (MSE), correlation coefficient, and others.
+
+## Goals
+1. Train and compare at least three different prediction models:
+   - Traditional machine learning models (e.g., Random Forest, SVM)
+   - Deep learning models (e.g., CNN)
+   
+2. Evaluate the models' performance using appropriate metrics (e.g., MSE, correlation).
+   
+3. Write a technical report discussing the methods used and the results obtained from the performance analysis.
+
